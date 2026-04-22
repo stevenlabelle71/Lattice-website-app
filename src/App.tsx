@@ -24,26 +24,26 @@ const SERVICES = [
   {
     id: "ds",
     title: "Digital Systems",
-    description: "Bespoke software development and web-based technical tools.",
+    description: "Customized software development and web-based technical tools.",
     icon: Cpu,
   }
 ];
 
 const PROJECTS = [
   {
-    title: "Industrial Effluent Treatment Modeling",
-    discipline: "Environmental Engineering",
-    description: "Advanced computational modeling to optimize flow and chemical dosing rates for industrial scale capabilities."
+    title: "Scaffold Failure Investigation",
+    discipline: "Root Cause Analysis",
+    description: "Root Cause Analysis for scaffold failure incident investigation."
   },
   {
-    title: "Custom SaaS Goal Trackers",
+    title: "Chemical Processing Simulator",
+    discipline: "Simulation Software",
+    description: "Simulation software for control room operators of chemical processing."
+  },
+  {
+    title: "Project Management Platform",
     discipline: "Software Development",
-    description: "Bespoke digital architecture for organizational KPI tracking and real-time operational visibility platforms."
-  },
-  {
-    title: "Mass Concrete Vault Oversight",
-    discipline: "Civil & Structural",
-    description: "Comprehensive QA/QC and structural oversight for mission-critical subterranean concrete vault installations."
+    description: "Custom project management software that tracks critical path, WBS, EVMS, and allows individual users and contractors to input expenses and update progress from end point devices."
   }
 ];
 
@@ -247,7 +247,7 @@ export default function App() {
               <Mail size={14} className="text-slate-500" /> info@latticesystemsgroup.com
             </div>
             <div className="text-[0.7rem] text-slate-400 max-w-[500px] leading-[1.4]">
-              Lattice Systems & Consulting LLC is a professional services firm. Engineering consulting provided by an Oregon Licensed PE (Comity Pending).
+              Lattice Systems & Consulting LLC is a professional services firm. Engineering consulting provided by a Licensed PE.
             </div>
           </div>
           
